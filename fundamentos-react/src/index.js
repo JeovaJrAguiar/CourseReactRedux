@@ -1,3 +1,9 @@
-import ReactDOM from'react-dom'
+import ReactDOM from'react-dom' // manipular o DOM
+import React from 'react' // para usar JSX
 
-ReactDOM.render('Olá React !!', document.getElementById('root'))
+ReactDOM.render(
+    <div>
+        <strong>Olá React !!</strong>
+    </div>, 
+    document.getElementById('root')
+)
