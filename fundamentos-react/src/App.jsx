@@ -9,22 +9,23 @@ import Aleatorio from './components/basicos/Aleatorio'
 export default () => (
     <div id='app'>
         <h1>Fundamentos React</h1>
-        
+
         <Card titulo="Desafio Aleatorio">
-            
+            <Aleatorio
+                valMin={70}
+                valMax={539} />
         </Card>
 
-        <Aleatorio
-            valMin = {70}
-            valMax = {539}/>
+        <Card titulo="Componente Fragmento">
+            <Fragmento />
+        </Card>
 
-        <Fragmento />
-
-        <ComParametro
-            titulo='Situaçao do aluno:'
-            aluno='Carlos'
-            nota={1.9} />
-
-        <Primeiro />
+        <Card titulo="Componente ComParametro">
+            <ComParametro
+                titulo='Situaçao do aluno:'
+                aluno='Carlos'
+                nota={1.9} />
+            <Primeiro />
+        </Card>
     </div>
 );

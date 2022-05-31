@@ -10,7 +10,7 @@ export default (props) => {
         <>
             <h2>Desafio Aleatorio</h2>
             <p>Recebi dois numeros: {valMin}(Minimo) e {valMax}(Maximo)</p>
-            <p>O numero aleatorio derado entre esses dois foi: {numAleatorio}</p>
+            <p>O numero aleatorio gerado entre esses dois foi: {numAleatorio}</p>
         </>
     )
 }
