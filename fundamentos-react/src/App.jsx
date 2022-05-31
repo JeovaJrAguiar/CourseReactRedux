@@ -10,21 +10,24 @@ export default () => (
     <div id='app'>
         <h1>Fundamentos React</h1>
 
-        <Card titulo="Desafio Aleatorio">
+        <Card titulo="# 04 - Desafio Aleatorio">
             <Aleatorio
                 valMin={70}
                 valMax={539} />
         </Card>
 
-        <Card titulo="Componente Fragmento">
+        <Card titulo="# 03 - Componente Fragmento">
             <Fragmento />
         </Card>
 
-        <Card titulo="Componente ComParametro">
+        <Card titulo="# 02 - Componente ComParametro">
             <ComParametro
                 titulo='Situaçao do aluno:'
                 aluno='Carlos'
                 nota={1.9} />
+        </Card>
+
+        <Card titulo="# 01 - Primeiro Componente">
             <Primeiro />
         </Card>
     </div>
