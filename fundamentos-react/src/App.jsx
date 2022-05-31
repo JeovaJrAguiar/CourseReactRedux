@@ -9,8 +9,10 @@ import Aleatorio from './components/basicos/Aleatorio'
 export default () => (
     <div id='app'>
         <h1>Fundamentos React</h1>
-        <Card
-            titulo='Exemplo de card'/>
+        
+        <Card titulo="Desafio Aleatorio">
+            
+        </Card>
 
         <Aleatorio
             valMin = {70}
