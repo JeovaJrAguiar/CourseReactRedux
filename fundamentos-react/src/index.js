@@ -1,25 +1,10 @@
 import ReactDOM from'react-dom' // manipular o DOM
 import React from 'react' // para usar JSX
-import './index.css'
 
-import Primeiro from './components/basicos/Primeiro'
-import ComParametro from './components/basicos/ComParametro'
-import Fragmento from './components/basicos/Fragmento'
+import './index.css'
+import App from './App'
 
 ReactDOM.render(
-    <div>
-        <Primeiro/>
-        <ComParametro 
-            titulo='Situaçao do aluno:' 
-            aluno='Carlos'
-            nota={1.9}/>
-
-        <ComParametro 
-            titulo='Situaçao do aluno:' 
-            aluno='Maria'
-            nota={9.9}/>
-
-        <Fragmento/>
-    </div>, 
+    <App/>, 
     document.getElementById('root')
 )
